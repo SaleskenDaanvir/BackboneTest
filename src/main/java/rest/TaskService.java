@@ -22,7 +22,7 @@ public class TaskService {
 	List<TaskPojo> taskPojos = new ArrayList<TaskPojo>();
 	
 	for(int i =0;i<10 ;i++) {
-		TaskPojo taskPojo = new TaskPojo(faker.name().firstName(), faker.internet().avatar(), faker.number().randomDigit()+"", faker.animal().name(), faker.book().title(), faker.number().randomDigit()+"", faker.superhero().name(), faker.ancient().god(), faker.number().randomDigit()+"", faker.number().randomDigit()+"", faker.app().author(), faker.business().creditCardNumber());
+		TaskPojo taskPojo = new TaskPojo(faker.name().firstName(), faker.internet().avatar(), faker.number().randomDigit()+"", faker.animal().name(), faker.book().title(), i+"", faker.superhero().name(), faker.ancient().god(), faker.number().randomDigit()+"", faker.number().randomDigit()+"", faker.app().author(), faker.business().creditCardNumber());
 		taskPojos.add(taskPojo);
 	}
 	
