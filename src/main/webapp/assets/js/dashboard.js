@@ -36,10 +36,14 @@ var TaskView = Backbone.View.extend({
 		'click .card-img-top':'removeCard'
 	},
 	
-  template: _.template($('#task-card-template').html()),
 
   render: function() {
-    this.$el.html(this.template(this.model.attributes));
+	  var parent =this;
+	  $.get(contextPath+'pages/template.txt').done(function(data){
+		  parent.$el.html(data);
+
+	  })
+	  
     return this;
   },
 	removeCard: function(){

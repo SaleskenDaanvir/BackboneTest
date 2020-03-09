@@ -64,7 +64,6 @@
 			<hr>
 		</div>
 		
-		<jsp:include page="/pages/template.jsp" />   
 		
 		<!-- /container -->
 	</main>

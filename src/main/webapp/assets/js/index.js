@@ -5,11 +5,7 @@ var contextPath = $('body').data('baseurl');
 
 $(document).ready(function(){
 	alert('ready');
-	_.templateSettings = {
-		    interpolate: /\{\{(.+?)\}\}/gim,
-		    evaluate: /\{\{(.+?)\}\}/gim,
-		    escape: /\{\{\-(.+?)\}\}/gim
-		};
+	
 });
 
 
