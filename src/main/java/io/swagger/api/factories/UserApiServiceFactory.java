@@ -3,7 +3,7 @@ package io.swagger.api.factories;
 import io.swagger.api.UserApiService;
 import io.swagger.api.impl.UserApiServiceImpl;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2021-06-04T07:37:30.557Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2021-06-04T07:37:54.527Z")
 public class UserApiServiceFactory {
     private final static UserApiService service = new UserApiServiceImpl();
 

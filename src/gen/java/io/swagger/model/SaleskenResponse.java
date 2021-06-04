@@ -25,7 +25,7 @@ import javax.validation.Valid;
 /**
  * SaleskenResponse
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2021-06-04T07:37:30.557Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2021-06-04T07:37:54.527Z")
 public class SaleskenResponse   {
   @JsonProperty("responseCode")
   private Integer responseCode = null;
